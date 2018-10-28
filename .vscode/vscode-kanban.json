@@ -1,0 +1,33 @@
+{
+  "done": [],
+  "in-progress": [],
+  "testing": [],
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "aabarbosa"
+      },
+      "category": "Portfolio",
+      "creation_time": "2018-10-28T12:55:46.064Z",
+      "description": {
+        "content": "There's a code from another portfolio,\ncheck it",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "prio": 2,
+      "references": [],
+      "title": "Hide personal information to the Code"
+    },
+    {
+      "assignedTo": {
+        "name": "aabarbosa"
+      },
+      "category": "Portfolio",
+      "creation_time": "2018-10-28T12:54:40.671Z",
+      "id": "1",
+      "prio": 1,
+      "references": [],
+      "title": "Move presentation component to the left"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charse="utf-8">
+    <title>404.html</title>
+
+    <script type="text/javascript">
+        // I reuse this code from the advice of Thomas Laird at Medium
+        // Please see it and get the full information & license
+        var segmentCount = 0;
+  
+        var l = window.location;
+        const nonHomeUrls = ['/ticker-finder'];
+          for (let i = 0; i < nonHomeUrls.length; i++) {
+            const urlRegex = new RegExp(nonHomeUrls[i], 'i');
+            const verifyUrl = urlRegex.test(l.pathname);
+            if (!verifyUrl) {
+              l.replace(
+                l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+                l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
+                l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+                (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+                l.hash
+              );
+            }
+          }
+  
+      </script>
+</head>
+<body>
+    
+</body>
+</html>

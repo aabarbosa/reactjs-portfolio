@@ -1,7 +1,12 @@
 {
   "presets": [
-    "es2018",
-    "stage-0"
-  ],
-  "plugins": []
+    [
+      "env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ]
 }

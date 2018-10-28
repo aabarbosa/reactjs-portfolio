@@ -1,10 +1,12 @@
-//@import '../../fontello-9b0df39d/css/pwebsite.css';
+/*Reused code from Thomas, I will replace this file
+because sorry, it's MIT Licensed */
 
 header {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 100px;
+  background: rgb(77, 72, 73);
 
   h1 {
     margin: 50px 0px 0px;
@@ -49,7 +51,7 @@ header {
           color: white;
           width: 100%;
           &.active {
-            border-bottom: 4px solid #E11246;
+            border-bottom: 4px solid rgb(152, 152, 163);
           }
           
         }
@@ -58,6 +60,7 @@ header {
   }
 }
 
+/*A nice way to make responsive web app*/
 @media screen and (max-width: 1050px) {
   header {
     margin-bottom: 0px;
