@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "es2018",
+    "stage-0"
+  ],
+  "plugins": []
+}

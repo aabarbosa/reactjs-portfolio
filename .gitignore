@@ -1,0 +1,12 @@
+# reactjs dependencies
+/node_modules
+
+# developer files
+/developer
+
+# deploy
+#/build
+
+# misc
+*.log
+*.local
