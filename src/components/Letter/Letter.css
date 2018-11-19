@@ -1,0 +1,14 @@
+.Blogs {
+  margin: 0px auto; }
+  .Blogs h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center; }
+    .Blogs h1 a {
+      color: white; }
+      .Blogs h1 a:hover {
+        color: rgb(218, 40, 16); }
+
+@media screen and (max-width: 600px) {
+  .Blogs h1 {
+    font-size: 30px; } }

@@ -1,8 +1,8 @@
 .Home {
   background: #363434;
   margin: 0px auto;
-  padding-bottom: 60px;
- // width: 35%; 
+  width: 50%;
+  position: relative;
  //TODO: Make it thin from the left side 35%, not centered. 
  //Preferably as a card that you can change easily the page.
 
@@ -28,14 +28,15 @@
   .window-btn-display {
     a {
       text-decoration: none;
-      color: white;
+      color: rgb(68, 216, 10);
       background-color: rgb(39, 37, 38);
-      padding: 20px;
-      border-radius: 5px;
+      padding: 10px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      border-radius: 534px;
       transition: .2s;
-      margin: 0px 20px 0px 0px;
+      margin: 0px 10px 0px 0px;
       &:hover {
-        color: rgb(61, 60, 60);
+        color: rgb(114, 168, 13);
         background-color: white;
       }
     }
@@ -45,7 +46,6 @@
 @media screen and (max-width: 700px) {
   .Home {
     .window-btn-display {
-      display: flex;
       flex-wrap: wrap;
       a {
         margin: 20px 20px 0px 0px;
@@ -67,7 +67,6 @@
       flex-wrap: wrap;
       justify-content: center;
       a {
-        margin: 20px 50px 0px;
       }
     }
   }

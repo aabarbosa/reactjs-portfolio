@@ -1,19 +1,29 @@
 {
   "name": "aabarbosa.io",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "homepage": "https://aabarbosa.github.io",
+  "description": "Personal Portfolio.",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "bootstrap": "^3.3.7",
+    "geopattern": "^1.2.3",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.4",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-pdf": "^3.0.5",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.5"
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "2.0.5",
+    "react-transition-group": "^2.2.1",
+    "redux": "^3.7.2",
+    "styled-components": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build "
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +35,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.1.2",
+    "prop-types": "^15.6.0",
     "@babel/core": "^7.1.0",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-transform-runtime": "^7.1.0",

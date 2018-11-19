@@ -9,19 +9,19 @@ header {
   background: rgb(77, 72, 73);
 
   h1 {
-    margin: 50px 0px 0px;
+    margin: 10px 10px 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 350px;
+    width: 250px;
     color: white;
     span {
       width: 100%;
       &:nth-of-type(1) {
-        font-size: 50px;
+        font-size: 30px;
       }
 
       &:nth-of-type(2) {
-        font-size: 30px;
+        font-size: 15px;
         font-weight: 300;
       }
     }
@@ -41,10 +41,12 @@ header {
     ul {
       display: flex;
       padding: 0px;
-      margin: 50px 0px 0px;
+      margin: 20px 10px 0px;
       li {
-        list-style: none;
+        list-style: none; 
+        background: rgb(100, 94, 96); //
         a {
+          font-size: 12px;
           text-decoration: inherit;
           padding: 5px 15px;
           height: 100%;
